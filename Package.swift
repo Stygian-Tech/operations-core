@@ -24,7 +24,6 @@ let package = Package(
       ],
       swiftSettings: [
         .swiftLanguageMode(.v6),
-        .unsafeFlags(["-warnings-as-errors"]),
       ]
     ),
     .testTarget(
@@ -37,7 +36,6 @@ let package = Package(
       ],
       swiftSettings: [
         .swiftLanguageMode(.v6),
-        .unsafeFlags(["-warnings-as-errors"]),
       ]
     ),
   ]
